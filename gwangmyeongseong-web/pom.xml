@@ -7,7 +7,7 @@
     <parent>
         <groupId>net.milanqiu.gwangmyeongseong</groupId>
         <artifactId>gwangmyeongseong-aggregator</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../gwangmyeongseong-aggregator/pom.xml</relativePath>
     </parent>
 
