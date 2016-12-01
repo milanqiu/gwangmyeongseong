@@ -5,11 +5,19 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
     <servlet>
-        <servlet-name>MainServlet</servlet-name>
-        <servlet-class>net.milanqiu.gwangmyeongseong.MainServlet</servlet-class>
+        <servlet-name>GetServlet</servlet-name>
+        <servlet-class>net.milanqiu.gwangmyeongseong.GetServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PostServlet</servlet-name>
+        <servlet-class>net.milanqiu.gwangmyeongseong.PostServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>MainServlet</servlet-name>
-        <url-pattern>/MainServlet</url-pattern>
+        <servlet-name>GetServlet</servlet-name>
+        <url-pattern>/GetServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PostServlet</servlet-name>
+        <url-pattern>/PostServlet</url-pattern>
     </servlet-mapping>
 </web-app>
