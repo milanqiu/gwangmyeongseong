@@ -17,7 +17,11 @@ public class PostServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
-        response.getWriter().print("Param:" + request.getParameter("param"));
+        response.getWriter().print("Method: post");
+        response.getWriter().print("<br>");
+        response.getWriter().print("Param1: " + request.getParameter("Param1"));
+        response.getWriter().print("<br>");
+        response.getWriter().print("Param2: " + request.getParameter("Param2"));
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
