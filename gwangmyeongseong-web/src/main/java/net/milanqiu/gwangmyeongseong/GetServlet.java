@@ -18,8 +18,6 @@ public class GetServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setCharacterEncoding("UTF-8");
-        response.setContentType("text/html;charset=UTF-8");
         response.getWriter().print("Method: get");
         response.getWriter().print("<br>");
         response.getWriter().print("Param1: " + request.getParameter("Param1"));

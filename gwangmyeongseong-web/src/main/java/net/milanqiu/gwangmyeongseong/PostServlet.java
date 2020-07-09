@@ -14,9 +14,6 @@ import java.io.IOException;
  */
 public class PostServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
-        response.setCharacterEncoding("UTF-8");
-        response.setContentType("text/html;charset=UTF-8");
         response.getWriter().print("Method: post");
         response.getWriter().print("<br>");
         response.getWriter().print("Param1: " + request.getParameter("Param1"));
