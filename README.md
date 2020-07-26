@@ -1,3 +1,3 @@
 gwangmyeongseong
 =====
-A formatted website for other satellites and programs to test web utilities.
+Formatted console and website for other satellites and programs to test console and web utilities.
